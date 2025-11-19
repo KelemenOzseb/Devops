@@ -1,0 +1,6 @@
+@GyakorloFeladat_HostAddress = http://localhost:5010
+
+GET {{GyakorloFeladat_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
