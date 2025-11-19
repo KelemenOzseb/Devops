@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Model;
 
-namespace Endpoint.Controllers
+namespace Endpoints.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
@@ -30,3 +30,4 @@ namespace Endpoint.Controllers
         }
     }
 }
+

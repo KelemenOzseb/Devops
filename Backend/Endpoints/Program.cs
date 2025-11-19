@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using Model;
 
-namespace Endpoint
+namespace Endpoints
 {
     public class Program
     {
@@ -20,7 +20,7 @@ namespace Endpoint
             builder.Services.AddDbContext<SongDbContext>(options =>
                 options.UseSqlServer(builder.Configuration["db:conn"]));
             builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
-            
+
             if (builder.Environment.IsProduction())
             {
                 builder.WebHost.ConfigureKestrel(options =>
