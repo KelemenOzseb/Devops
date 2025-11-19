@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using Model;
 
-namespace GyakorloFeladat
+namespace Endpoint
 {
     public class Program
     {

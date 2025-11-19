@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Model;
 
-namespace GyakorloFeladat.Controllers
+namespace Endpoint.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
