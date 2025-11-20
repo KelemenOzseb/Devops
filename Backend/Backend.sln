@@ -3,12 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36518.9
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{A124332C-338C-47B4-93B0-1D83C5AA60A6}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logic", "Logic\Logic.csproj", "{E5251D01-C165-4524-BAEF-2CB04F164B74}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{EE5C4A4C-6B28-459D-9317-04CC577BA1AD}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Endpoints", "Endpoints\Endpoints.csproj", "{A98C6771-4E6D-40E9-8A09-A7ACADF0677C}"
 EndProject
 Global
@@ -17,18 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A124332C-338C-47B4-93B0-1D83C5AA60A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A124332C-338C-47B4-93B0-1D83C5AA60A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A124332C-338C-47B4-93B0-1D83C5AA60A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A124332C-338C-47B4-93B0-1D83C5AA60A6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E5251D01-C165-4524-BAEF-2CB04F164B74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E5251D01-C165-4524-BAEF-2CB04F164B74}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E5251D01-C165-4524-BAEF-2CB04F164B74}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E5251D01-C165-4524-BAEF-2CB04F164B74}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EE5C4A4C-6B28-459D-9317-04CC577BA1AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EE5C4A4C-6B28-459D-9317-04CC577BA1AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EE5C4A4C-6B28-459D-9317-04CC577BA1AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EE5C4A4C-6B28-459D-9317-04CC577BA1AD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A98C6771-4E6D-40E9-8A09-A7ACADF0677C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A98C6771-4E6D-40E9-8A09-A7ACADF0677C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A98C6771-4E6D-40E9-8A09-A7ACADF0677C}.Release|Any CPU.ActiveCfg = Release|Any CPU
