@@ -23,9 +23,9 @@ namespace Endpoints.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> AddSong(string artist, string title, int length, int likes)
+        public async Task<IActionResult> AddSong([FromBody] Song song)
         {
-            await _repository.Create(new Song(artist, title, length, likes));
+            await _repository.Create(song);
             return Ok();
         }
     }
